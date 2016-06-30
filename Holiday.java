@@ -11,5 +11,7 @@ public class Holiday {
             System.out.println("false");
         else if(s.equals("Monday") || s.equals("Tuesday") s.equals("Wednesday") || s.equals("Thursday") s.equals("Friday"))
             System.out.println("true");
+        else
+            System.out.print("Wrong input");    
     }
 }
