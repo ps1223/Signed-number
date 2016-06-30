@@ -9,7 +9,7 @@ public class Holiday {
         String s = sc.next();
         if(s.equals("Saturday") || s.equals("Sunday"))
             System.out.println("false");
-        else
+        else if(s.equals("Monday") || s.equals("Tuesday") s.equals("Wednesday") || s.equals("Thursday") s.equals("Friday"))
             System.out.println("true");
     }
 }
