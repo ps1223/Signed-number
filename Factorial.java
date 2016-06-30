@@ -11,7 +11,10 @@ public class Factorial {
         for(int i = 1; i <= n; i++) {
             fact = fact * i;
         }
-        System.out.print(fact);
+        if(n == 0)
+            System.out.print("1");
+        else
+            System.out.print(fact);
     }
 }
 
