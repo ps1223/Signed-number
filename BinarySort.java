@@ -21,12 +21,7 @@ public class BinarySort {
 
         for (int i = 0; i < n; i++) {
             count[i] = 0;
-        }
-        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-        }
-
-        for (int i = 0; i < n; i++) {
             bin[i] = Integer.parseInt(Integer.toBinaryString(arr[i]));
         }
 
