@@ -70,13 +70,8 @@ public class BinarySort {
                     }
                 }
             }
-            System.out.println("");
-            System.out.println(largest);
             count[largest] = 0;
             sort[i] = arr[largest];
-            for (int k : sort) {
-                System.out.print(k + " ");
-            }
         }
         for (i = 0; i < n; i++) {
             System.out.println(sort[i]);
